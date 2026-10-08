@@ -1,6 +1,6 @@
 # In this file, we shall declare all the contants and variables that do not change. 
-TEST_URL = "file:///Users/cloviswanziguya/Projects/Portfolio/cwanziguya/index.html"
-DYNAMIC_DEFAULT_URL = "file:///Users/cloviswanziguya/Projects/Portfolio/cwanziguya/"
+TEST_URL = "file:///Users/julesnizeyimana/Documents/ALL_IN_ONE/DOCS/B-TEC/PROJECTS/portfolio/julesnizeyimana/index.html"
+DYNAMIC_DEFAULT_URL = "file:///Users/julesnizeyimana/Documents/ALL_IN_ONE/DOCS/B-TEC/PROJECTS/portfolio/julesnizeyimana/"
 ABOUT_TEXT = "ABOUT"
 PORTFOLIO_DETAILS_TEXT = "Portfolio Details"
 PORTFOLIO_TEXT = "PORTFOLIO"
