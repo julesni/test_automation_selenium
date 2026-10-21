@@ -406,7 +406,8 @@ def test_click_item(
             error=error_message,
             screenshot=screenshot
         )
-
+# Pause for 3 seconds so the test result is visible.
+    time.sleep(3)
     return {
         "test_id": test_id,
         "description": f"Navigation: {itemname}",
@@ -428,7 +429,7 @@ def test_missing_link(test_id, test_url):
 
     start_time = time.perf_counter()
 
-    description = "Negative test: nonexistent link"
+    description = "Negative test: nonexistent link: CERTIFICATES"
     expected = (
         "The nonexistent link should not be found; "
         "the negative test should record FAIL."
@@ -554,3 +555,4 @@ def close_logging():
         handler.flush()
         handler.close()
         logger.removeHandler(handler)
+       
