@@ -4,7 +4,8 @@
 **Testing tool:** Python and Selenium WebDriver  
 **Browser:** Google Chrome  
 **Test environment:** Local HTTP server  
-**Base URL:** `http://localhost:8000/`
+**Base URL:** 
+https://julesni.github.io/julesnizeyimana/
 
 ## 1. Objective
 
@@ -23,7 +24,7 @@ Each test will have a unique ID, an expected result, an actual result, a status,
 | TC-05 | Education navigation | Open the home page and click the Education link. | The Education page opens, and the URL matches the expected destination. |
 | TC-06 | Blog navigation | Open the home page and click the Blog link. | The Blog page opens, and the URL matches the expected destination. |
 | TC-07 | Contact navigation | Open the home page and click the Contact link. | The Contact page opens, and the URL matches the expected destination. |
-| TC-08 | Negative test: nonexistent link | Open the home page and attempt to locate a deliberately nonexistent link. | The element is not found; the test is recorded as FAIL, a screenshot is saved, and the remaining tests continue. |
+| TC-08 | Negative test: nonexistent link | Open the home page and attempt to locate a deliberately nonexistent link(CERTIFICATES). | The element is not found; the test is recorded as FAIL, a screenshot is saved, and the remaining tests continue. |
 
 ## 3. Test Execution Rules
 
