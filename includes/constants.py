@@ -1,6 +1,6 @@
 # In this file, we shall declare all the contants and variables that do not change. 
-#TEST_URL = "file:///Users/julesnizeyimana/Documents/ALL_IN_ONE/DOCS/B-TEC/PROJECTS/portfolio/julesnizeyimana/index.html"
-#DYNAMIC_DEFAULT_URL = "file:///Users/julesnizeyimana/Documents/ALL_IN_ONE/DOCS/B-TEC/PROJECTS/portfolio/julesnizeyimana/"
+TEST_URL = "https://julesni.github.io/julesnizeyimana/"
+DYNAMIC_DEFAULT_URL = "https://julesni.github.io/julesnizeyimana/"
 
 """
 Constants and configuration for Selenium portfolio testing.
@@ -11,12 +11,13 @@ Constants and configuration for Selenium portfolio testing.
 # ============================================================
 
 # The local web server must be running on port 8000.
-DYNAMIC_DEFAULT_URL = "http://localhost:8000/"
+#DYNAMIC_DEFAULT_URL = "http://localhost:8000/"
+#DYNAMIC_DEFAULT_URL= "https://julesni.github.io/julesnizeyimana/"
 
 # Portfolio home page.
-TEST_URL = DYNAMIC_DEFAULT_URL + "index.html"
+#TEST_URL = DYNAMIC_DEFAULT_URL + "index.html"
 
-
+##https://julesni.github.io/julesnizeyimana/index.html
 # ============================================================
 # NAVIGATION LABELS
 # ============================================================
