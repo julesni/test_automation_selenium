@@ -1,0 +1,311 @@
+2026-10-21 20:14:09 | INFO | RUN START | Website=http://localhost:8000/index.html | Browser=chrome 155.0.8059.85 | OS=macOS-15.8.1-x86_64-i386-64bit-Mach-O | Python=3.14.4
+2026-10-21 20:14:09 | ERROR | TC-01 | Test=Navigation: Home | Expected=Click 'Home' and reach http://localhost:8000/index.html | Actual=Navigation unsuccessful; current URL=http://localhost:8000/index.html | Status=FAIL | Duration=0.48s | URL=http://localhost:8000/index.html | Error=WebDriverException: Message: unknown error: net::ERR_CONNECTION_REFUSED
+  (Session info: chrome=155.0.8059.85)
+Stacktrace:
+0   chromedriver                        0x00000001095003da chromedriver + 4121562
+1   chromedriver                        0x000000010917ec25 chromedriver + 445477
+2   chromedriver                        0x000000010917bcc7 chromedriver + 433351
+3   chromedriver                        0x000000010916cc0f chromedriver + 371727
+4   chromedriver                        0x000000010916e9d9 chromedriver + 379353
+5   chromedriver                        0x000000010916d0e8 chromedriver + 372968
+6   chromedriver                        0x000000010916c9ac chromedriver + 371116
+7   chromedriver                        0x000000010916c68d chromedriver + 370317
+8   chromedriver                        0x000000010916a509 chromedriver + 361737
+9   chromedriver                        0x000000010916ad10 chromedriver + 363792
+10  chromedriver                        0x0000000109182401 chromedriver + 459777
+11  chromedriver                        0x000000010921dceb chromedriver + 1096939
+12  chromedriver                        0x000000010921cfec chromedriver + 1093612
+13  chromedriver                        0x00000001091c6b2d chromedriver + 740141
+14  chromedriver                        0x00000001091c7861 chromedriver + 743521
+15  chromedriver                        0x00000001094c82f9 chromedriver + 3891961
+16  chromedriver                        0x00000001094cc164 chromedriver + 3907940
+17  chromedriver                        0x00000001094ae04e chromedriver + 3784782
+18  chromedriver                        0x00000001094ccc32 chromedriver + 3910706
+19  chromedriver                        0x00000001094a0c19 chromedriver + 3730457
+20  chromedriver                        0x00000001094ebf98 chromedriver + 4038552
+21  chromedriver                        0x00000001094ec12c chromedriver + 4038956
+22  chromedriver                        0x0000000109500086 chromedriver + 4120710
+23  libsystem_pthread.dylib             0x00007ff812325e05 _pthread_start + 115
+24  libsystem_pthread.dylib             0x00007ff812321857 thread_start + 15
+ | Screenshot=screenshots/TC-01_fail_20261021_201349_765663.png
+2026-10-21 20:14:12 | ERROR | TC-02 | Test=Navigation: About | Expected=Click 'About' and reach http://localhost:8000/about.html | Actual=Navigation unsuccessful; current URL=http://localhost:8000/index.html | Status=FAIL | Duration=0.21s | URL=http://localhost:8000/index.html | Error=WebDriverException: Message: unknown error: net::ERR_CONNECTION_REFUSED
+  (Session info: chrome=155.0.8059.85)
+Stacktrace:
+0   chromedriver                        0x00000001095003da chromedriver + 4121562
+1   chromedriver                        0x000000010917ec25 chromedriver + 445477
+2   chromedriver                        0x000000010917bcc7 chromedriver + 433351
+3   chromedriver                        0x000000010916cc0f chromedriver + 371727
+4   chromedriver                        0x000000010916e9d9 chromedriver + 379353
+5   chromedriver                        0x000000010916d0e8 chromedriver + 372968
+6   chromedriver                        0x000000010916c9ac chromedriver + 371116
+7   chromedriver                        0x000000010916c68d chromedriver + 370317
+8   chromedriver                        0x000000010916a509 chromedriver + 361737
+9   chromedriver                        0x000000010916ad10 chromedriver + 363792
+10  chromedriver                        0x0000000109182401 chromedriver + 459777
+11  chromedriver                        0x000000010921dceb chromedriver + 1096939
+12  chromedriver                        0x000000010921cfec chromedriver + 1093612
+13  chromedriver                        0x00000001091c6b2d chromedriver + 740141
+14  chromedriver                        0x00000001091c7861 chromedriver + 743521
+15  chromedriver                        0x00000001094c82f9 chromedriver + 3891961
+16  chromedriver                        0x00000001094cc164 chromedriver + 3907940
+17  chromedriver                        0x00000001094ae04e chromedriver + 3784782
+18  chromedriver                        0x00000001094ccc32 chromedriver + 3910706
+19  chromedriver                        0x00000001094a0c19 chromedriver + 3730457
+20  chromedriver                        0x00000001094ebf98 chromedriver + 4038552
+21  chromedriver                        0x00000001094ec12c chromedriver + 4038956
+22  chromedriver                        0x0000000109500086 chromedriver + 4120710
+23  libsystem_pthread.dylib             0x00007ff812325e05 _pthread_start + 115
+24  libsystem_pthread.dylib             0x00007ff812321857 thread_start + 15
+ | Screenshot=screenshots/TC-02_fail_20261021_201349_765663.png
+2026-10-21 20:14:16 | ERROR | TC-03 | Test=Navigation: Projects | Expected=Click 'Projects' and reach http://localhost:8000/projects.html | Actual=Navigation unsuccessful; current URL=http://localhost:8000/index.html | Status=FAIL | Duration=0.24s | URL=http://localhost:8000/index.html | Error=WebDriverException: Message: unknown error: net::ERR_CONNECTION_REFUSED
+  (Session info: chrome=155.0.8059.85)
+Stacktrace:
+0   chromedriver                        0x00000001095003da chromedriver + 4121562
+1   chromedriver                        0x000000010917ec25 chromedriver + 445477
+2   chromedriver                        0x000000010917bcc7 chromedriver + 433351
+3   chromedriver                        0x000000010916cc0f chromedriver + 371727
+4   chromedriver                        0x000000010916e9d9 chromedriver + 379353
+5   chromedriver                        0x000000010916d0e8 chromedriver + 372968
+6   chromedriver                        0x000000010916c9ac chromedriver + 371116
+7   chromedriver                        0x000000010916c68d chromedriver + 370317
+8   chromedriver                        0x000000010916a509 chromedriver + 361737
+9   chromedriver                        0x000000010916ad10 chromedriver + 363792
+10  chromedriver                        0x0000000109182401 chromedriver + 459777
+11  chromedriver                        0x000000010921dceb chromedriver + 1096939
+12  chromedriver                        0x000000010921cfec chromedriver + 1093612
+13  chromedriver                        0x00000001091c6b2d chromedriver + 740141
+14  chromedriver                        0x00000001091c7861 chromedriver + 743521
+15  chromedriver                        0x00000001094c82f9 chromedriver + 3891961
+16  chromedriver                        0x00000001094cc164 chromedriver + 3907940
+17  chromedriver                        0x00000001094ae04e chromedriver + 3784782
+18  chromedriver                        0x00000001094ccc32 chromedriver + 3910706
+19  chromedriver                        0x00000001094a0c19 chromedriver + 3730457
+20  chromedriver                        0x00000001094ebf98 chromedriver + 4038552
+21  chromedriver                        0x00000001094ec12c chromedriver + 4038956
+22  chromedriver                        0x0000000109500086 chromedriver + 4120710
+23  libsystem_pthread.dylib             0x00007ff812325e05 _pthread_start + 115
+24  libsystem_pthread.dylib             0x00007ff812321857 thread_start + 15
+ | Screenshot=screenshots/TC-03_fail_20261021_201349_765663.png
+2026-10-21 20:14:19 | ERROR | TC-04 | Screenshot capture failed | Error=Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=155.0.8059.85)
+Stacktrace:
+0   chromedriver                        0x00000001095003da chromedriver + 4121562
+1   chromedriver                        0x000000010917ec25 chromedriver + 445477
+2   chromedriver                        0x0000000109158ac8 chromedriver + 289480
+3   chromedriver                        0x0000000109200c88 chromedriver + 978056
+4   chromedriver                        0x000000010921c9a5 chromedriver + 1092005
+5   chromedriver                        0x00000001091c6b2d chromedriver + 740141
+6   chromedriver                        0x00000001091c7861 chromedriver + 743521
+7   chromedriver                        0x00000001094c82f9 chromedriver + 3891961
+8   chromedriver                        0x00000001094cc164 chromedriver + 3907940
+9   chromedriver                        0x00000001094ae04e chromedriver + 3784782
+10  chromedriver                        0x00000001094ccc32 chromedriver + 3910706
+11  chromedriver                        0x00000001094a0c19 chromedriver + 3730457
+12  chromedriver                        0x00000001094ebf98 chromedriver + 4038552
+13  chromedriver                        0x00000001094ec12c chromedriver + 4038956
+14  chromedriver                        0x0000000109500086 chromedriver + 4120710
+15  libsystem_pthread.dylib             0x00007ff812325e05 _pthread_start + 115
+16  libsystem_pthread.dylib             0x00007ff812321857 thread_start + 15
+
+2026-10-21 20:14:19 | ERROR | TC-04 | Test=Navigation: Area of Expertise | Expected=Click 'Area of Expertise' and reach http://localhost:8000/expertise.html | Actual=Unable to retrieve current browser URL | Status=FAIL | Duration=0.01s | URL=Unavailable | Error=NoSuchWindowException: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=155.0.8059.85)
+Stacktrace:
+0   chromedriver                        0x00000001095003da chromedriver + 4121562
+1   chromedriver                        0x000000010917ec25 chromedriver + 445477
+2   chromedriver                        0x0000000109158ac8 chromedriver + 289480
+3   chromedriver                        0x0000000109200c88 chromedriver + 978056
+4   chromedriver                        0x000000010921c9a5 chromedriver + 1092005
+5   chromedriver                        0x00000001091c6b2d chromedriver + 740141
+6   chromedriver                        0x00000001091c7861 chromedriver + 743521
+7   chromedriver                        0x00000001094c82f9 chromedriver + 3891961
+8   chromedriver                        0x00000001094cc164 chromedriver + 3907940
+9   chromedriver                        0x00000001094ae04e chromedriver + 3784782
+10  chromedriver                        0x00000001094ccc32 chromedriver + 3910706
+11  chromedriver                        0x00000001094a0c19 chromedriver + 3730457
+12  chromedriver                        0x00000001094ebf98 chromedriver + 4038552
+13  chromedriver                        0x00000001094ec12c chromedriver + 4038956
+14  chromedriver                        0x0000000109500086 chromedriver + 4120710
+15  libsystem_pthread.dylib             0x00007ff812325e05 _pthread_start + 115
+16  libsystem_pthread.dylib             0x00007ff812321857 thread_start + 15
+
+2026-10-21 20:14:22 | ERROR | TC-05 | Screenshot capture failed | Error=Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=155.0.8059.85)
+Stacktrace:
+0   chromedriver                        0x00000001095003da chromedriver + 4121562
+1   chromedriver                        0x000000010917ec25 chromedriver + 445477
+2   chromedriver                        0x0000000109158ac8 chromedriver + 289480
+3   chromedriver                        0x0000000109200c88 chromedriver + 978056
+4   chromedriver                        0x000000010921c9a5 chromedriver + 1092005
+5   chromedriver                        0x00000001091c6b2d chromedriver + 740141
+6   chromedriver                        0x00000001091c7861 chromedriver + 743521
+7   chromedriver                        0x00000001094c82f9 chromedriver + 3891961
+8   chromedriver                        0x00000001094cc164 chromedriver + 3907940
+9   chromedriver                        0x00000001094ae04e chromedriver + 3784782
+10  chromedriver                        0x00000001094ccc32 chromedriver + 3910706
+11  chromedriver                        0x00000001094a0c19 chromedriver + 3730457
+12  chromedriver                        0x00000001094ebf98 chromedriver + 4038552
+13  chromedriver                        0x00000001094ec12c chromedriver + 4038956
+14  chromedriver                        0x0000000109500086 chromedriver + 4120710
+15  libsystem_pthread.dylib             0x00007ff812325e05 _pthread_start + 115
+16  libsystem_pthread.dylib             0x00007ff812321857 thread_start + 15
+
+2026-10-21 20:14:22 | ERROR | TC-05 | Test=Navigation: Education | Expected=Click 'Education' and reach http://localhost:8000/education.html | Actual=Unable to retrieve current browser URL | Status=FAIL | Duration=0.01s | URL=Unavailable | Error=NoSuchWindowException: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=155.0.8059.85)
+Stacktrace:
+0   chromedriver                        0x00000001095003da chromedriver + 4121562
+1   chromedriver                        0x000000010917ec25 chromedriver + 445477
+2   chromedriver                        0x0000000109158ac8 chromedriver + 289480
+3   chromedriver                        0x0000000109200c88 chromedriver + 978056
+4   chromedriver                        0x000000010921c9a5 chromedriver + 1092005
+5   chromedriver                        0x00000001091c6b2d chromedriver + 740141
+6   chromedriver                        0x00000001091c7861 chromedriver + 743521
+7   chromedriver                        0x00000001094c82f9 chromedriver + 3891961
+8   chromedriver                        0x00000001094cc164 chromedriver + 3907940
+9   chromedriver                        0x00000001094ae04e chromedriver + 3784782
+10  chromedriver                        0x00000001094ccc32 chromedriver + 3910706
+11  chromedriver                        0x00000001094a0c19 chromedriver + 3730457
+12  chromedriver                        0x00000001094ebf98 chromedriver + 4038552
+13  chromedriver                        0x00000001094ec12c chromedriver + 4038956
+14  chromedriver                        0x0000000109500086 chromedriver + 4120710
+15  libsystem_pthread.dylib             0x00007ff812325e05 _pthread_start + 115
+16  libsystem_pthread.dylib             0x00007ff812321857 thread_start + 15
+
+2026-10-21 20:14:25 | ERROR | TC-06 | Screenshot capture failed | Error=Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=155.0.8059.85)
+Stacktrace:
+0   chromedriver                        0x00000001095003da chromedriver + 4121562
+1   chromedriver                        0x000000010917ec25 chromedriver + 445477
+2   chromedriver                        0x0000000109158ac8 chromedriver + 289480
+3   chromedriver                        0x0000000109200c88 chromedriver + 978056
+4   chromedriver                        0x000000010921c9a5 chromedriver + 1092005
+5   chromedriver                        0x00000001091c6b2d chromedriver + 740141
+6   chromedriver                        0x00000001091c7861 chromedriver + 743521
+7   chromedriver                        0x00000001094c82f9 chromedriver + 3891961
+8   chromedriver                        0x00000001094cc164 chromedriver + 3907940
+9   chromedriver                        0x00000001094ae04e chromedriver + 3784782
+10  chromedriver                        0x00000001094ccc32 chromedriver + 3910706
+11  chromedriver                        0x00000001094a0c19 chromedriver + 3730457
+12  chromedriver                        0x00000001094ebf98 chromedriver + 4038552
+13  chromedriver                        0x00000001094ec12c chromedriver + 4038956
+14  chromedriver                        0x0000000109500086 chromedriver + 4120710
+15  libsystem_pthread.dylib             0x00007ff812325e05 _pthread_start + 115
+16  libsystem_pthread.dylib             0x00007ff812321857 thread_start + 15
+
+2026-10-21 20:14:25 | ERROR | TC-06 | Test=Navigation: Blog | Expected=Click 'Blog' and reach http://localhost:8000/blog.html | Actual=Unable to retrieve current browser URL | Status=FAIL | Duration=0.00s | URL=Unavailable | Error=NoSuchWindowException: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=155.0.8059.85)
+Stacktrace:
+0   chromedriver                        0x00000001095003da chromedriver + 4121562
+1   chromedriver                        0x000000010917ec25 chromedriver + 445477
+2   chromedriver                        0x0000000109158ac8 chromedriver + 289480
+3   chromedriver                        0x0000000109200c88 chromedriver + 978056
+4   chromedriver                        0x000000010921c9a5 chromedriver + 1092005
+5   chromedriver                        0x00000001091c6b2d chromedriver + 740141
+6   chromedriver                        0x00000001091c7861 chromedriver + 743521
+7   chromedriver                        0x00000001094c82f9 chromedriver + 3891961
+8   chromedriver                        0x00000001094cc164 chromedriver + 3907940
+9   chromedriver                        0x00000001094ae04e chromedriver + 3784782
+10  chromedriver                        0x00000001094ccc32 chromedriver + 3910706
+11  chromedriver                        0x00000001094a0c19 chromedriver + 3730457
+12  chromedriver                        0x00000001094ebf98 chromedriver + 4038552
+13  chromedriver                        0x00000001094ec12c chromedriver + 4038956
+14  chromedriver                        0x0000000109500086 chromedriver + 4120710
+15  libsystem_pthread.dylib             0x00007ff812325e05 _pthread_start + 115
+16  libsystem_pthread.dylib             0x00007ff812321857 thread_start + 15
+
+2026-10-21 20:14:28 | ERROR | TC-07 | Screenshot capture failed | Error=Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=155.0.8059.85)
+Stacktrace:
+0   chromedriver                        0x00000001095003da chromedriver + 4121562
+1   chromedriver                        0x000000010917ec25 chromedriver + 445477
+2   chromedriver                        0x0000000109158ac8 chromedriver + 289480
+3   chromedriver                        0x0000000109200c88 chromedriver + 978056
+4   chromedriver                        0x000000010921c9a5 chromedriver + 1092005
+5   chromedriver                        0x00000001091c6b2d chromedriver + 740141
+6   chromedriver                        0x00000001091c7861 chromedriver + 743521
+7   chromedriver                        0x00000001094c82f9 chromedriver + 3891961
+8   chromedriver                        0x00000001094cc164 chromedriver + 3907940
+9   chromedriver                        0x00000001094ae04e chromedriver + 3784782
+10  chromedriver                        0x00000001094ccc32 chromedriver + 3910706
+11  chromedriver                        0x00000001094a0c19 chromedriver + 3730457
+12  chromedriver                        0x00000001094ebf98 chromedriver + 4038552
+13  chromedriver                        0x00000001094ec12c chromedriver + 4038956
+14  chromedriver                        0x0000000109500086 chromedriver + 4120710
+15  libsystem_pthread.dylib             0x00007ff812325e05 _pthread_start + 115
+16  libsystem_pthread.dylib             0x00007ff812321857 thread_start + 15
+
+2026-10-21 20:14:28 | ERROR | TC-07 | Test=Navigation: Contact | Expected=Click 'Contact' and reach http://localhost:8000/contact.html | Actual=Unable to retrieve current browser URL | Status=FAIL | Duration=0.00s | URL=Unavailable | Error=NoSuchWindowException: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=155.0.8059.85)
+Stacktrace:
+0   chromedriver                        0x00000001095003da chromedriver + 4121562
+1   chromedriver                        0x000000010917ec25 chromedriver + 445477
+2   chromedriver                        0x0000000109158ac8 chromedriver + 289480
+3   chromedriver                        0x0000000109200c88 chromedriver + 978056
+4   chromedriver                        0x000000010921c9a5 chromedriver + 1092005
+5   chromedriver                        0x00000001091c6b2d chromedriver + 740141
+6   chromedriver                        0x00000001091c7861 chromedriver + 743521
+7   chromedriver                        0x00000001094c82f9 chromedriver + 3891961
+8   chromedriver                        0x00000001094cc164 chromedriver + 3907940
+9   chromedriver                        0x00000001094ae04e chromedriver + 3784782
+10  chromedriver                        0x00000001094ccc32 chromedriver + 3910706
+11  chromedriver                        0x00000001094a0c19 chromedriver + 3730457
+12  chromedriver                        0x00000001094ebf98 chromedriver + 4038552
+13  chromedriver                        0x00000001094ec12c chromedriver + 4038956
+14  chromedriver                        0x0000000109500086 chromedriver + 4120710
+15  libsystem_pthread.dylib             0x00007ff812325e05 _pthread_start + 115
+16  libsystem_pthread.dylib             0x00007ff812321857 thread_start + 15
+
+2026-10-21 20:14:31 | ERROR | TC-08 | Screenshot capture failed | Error=Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=155.0.8059.85)
+Stacktrace:
+0   chromedriver                        0x00000001095003da chromedriver + 4121562
+1   chromedriver                        0x000000010917ec25 chromedriver + 445477
+2   chromedriver                        0x0000000109158ac8 chromedriver + 289480
+3   chromedriver                        0x0000000109200c88 chromedriver + 978056
+4   chromedriver                        0x000000010921c9a5 chromedriver + 1092005
+5   chromedriver                        0x00000001091c6b2d chromedriver + 740141
+6   chromedriver                        0x00000001091c7861 chromedriver + 743521
+7   chromedriver                        0x00000001094c82f9 chromedriver + 3891961
+8   chromedriver                        0x00000001094cc164 chromedriver + 3907940
+9   chromedriver                        0x00000001094ae04e chromedriver + 3784782
+10  chromedriver                        0x00000001094ccc32 chromedriver + 3910706
+11  chromedriver                        0x00000001094a0c19 chromedriver + 3730457
+12  chromedriver                        0x00000001094ebf98 chromedriver + 4038552
+13  chromedriver                        0x00000001094ec12c chromedriver + 4038956
+14  chromedriver                        0x0000000109500086 chromedriver + 4120710
+15  libsystem_pthread.dylib             0x00007ff812325e05 _pthread_start + 115
+16  libsystem_pthread.dylib             0x00007ff812321857 thread_start + 15
+
+2026-10-21 20:14:31 | ERROR | TC-08 | Test=Negative test: nonexistent link: CERTIFICATES | Expected=The nonexistent link should not be found; the negative test should record FAIL. | Actual=Unable to retrieve current browser URL | Status=FAIL | Duration=0.00s | URL=Unavailable | Error=NoSuchWindowException: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=155.0.8059.85)
+Stacktrace:
+0   chromedriver                        0x00000001095003da chromedriver + 4121562
+1   chromedriver                        0x000000010917ec25 chromedriver + 445477
+2   chromedriver                        0x0000000109158ac8 chromedriver + 289480
+3   chromedriver                        0x0000000109200c88 chromedriver + 978056
+4   chromedriver                        0x000000010921c9a5 chromedriver + 1092005
+5   chromedriver                        0x00000001091c6b2d chromedriver + 740141
+6   chromedriver                        0x00000001091c7861 chromedriver + 743521
+7   chromedriver                        0x00000001094c82f9 chromedriver + 3891961
+8   chromedriver                        0x00000001094cc164 chromedriver + 3907940
+9   chromedriver                        0x00000001094ae04e chromedriver + 3784782
+10  chromedriver                        0x00000001094ccc32 chromedriver + 3910706
+11  chromedriver                        0x00000001094a0c19 chromedriver + 3730457
+12  chromedriver                        0x00000001094ebf98 chromedriver + 4038552
+13  chromedriver                        0x00000001094ec12c chromedriver + 4038956
+14  chromedriver                        0x0000000109500086 chromedriver + 4120710
+15  libsystem_pthread.dylib             0x00007ff812325e05 _pthread_start + 115
+16  libsystem_pthread.dylib             0x00007ff812321857 thread_start + 15
+
+2026-10-21 20:14:31 | INFO | BROWSER CLOSED | Chrome session terminated.
+2026-10-21 20:14:31 | INFO | TEST SUITE SUMMARY | Total: 8 | Passed: 0 | Failed: 8 | Other: 0 | Duration: 41.46s
+2026-10-21 20:14:31 | INFO | TEST SUITE SUMMARY | Total: 8 | Passed: 0 | Failed: 8 | Other: 0 | Duration: 41.46s

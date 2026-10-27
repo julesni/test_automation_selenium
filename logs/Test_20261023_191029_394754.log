@@ -1,0 +1,103 @@
+2026-10-23 19:10:31 | INFO | RUN START | Website=https://julesni.github.io/julesnizeyimana/ | Browser=chrome 155.0.8059.85 | OS=macOS-15.8.1-x86_64-i386-64bit-Mach-O | Python=3.14.4
+2026-10-23 19:10:54 | ERROR | TC-01 | Test=Navigation: Home | Expected=Click 'Home' and reach https://julesni.github.io/julesnizeyimana/ | Actual=Navigation unsuccessful; current URL=https://julesni.github.io/julesnizeyimana/ | Status=FAIL | Duration=22.87s | URL=https://julesni.github.io/julesnizeyimana/ | Error=AssertionError: No visible, enabled link found for 'Home'. | Screenshot=screenshots/TC-01_fail_20261023_191029_394754.png
+2026-10-23 19:11:12 | ERROR | TC-02 | Test=Navigation: About | Expected=Click 'About' and reach https://julesni.github.io/julesnizeyimana/index.htmlabout.html | Actual=Navigation unsuccessful; current URL=https://julesni.github.io/julesnizeyimana/about.html | Status=FAIL | Duration=15.39s | URL=https://julesni.github.io/julesnizeyimana/about.html | Error=TimeoutException: Message: 
+ | Screenshot=screenshots/TC-02_fail_20261023_191029_394754.png
+2026-10-23 19:11:27 | ERROR | TC-03 | Test=Navigation: Projects | Expected=Click 'Projects' and reach https://julesni.github.io/julesnizeyimana/index.htmlprojects.html | Actual=Navigation unsuccessful; current URL=https://julesni.github.io/julesnizeyimana/projects.html | Status=FAIL | Duration=11.79s | URL=https://julesni.github.io/julesnizeyimana/projects.html | Error=TimeoutException: Message: 
+ | Screenshot=screenshots/TC-03_fail_20261023_191029_394754.png
+2026-10-23 19:11:42 | ERROR | TC-04 | Test=Navigation: Area of Expertise | Expected=Click 'Area of Expertise' and reach https://julesni.github.io/julesnizeyimana/index.htmlexpertise.html | Actual=Navigation unsuccessful; current URL=https://julesni.github.io/julesnizeyimana/expertise.html | Status=FAIL | Duration=11.46s | URL=https://julesni.github.io/julesnizeyimana/expertise.html | Error=TimeoutException: Message: 
+ | Screenshot=screenshots/TC-04_fail_20261023_191029_394754.png
+2026-10-23 19:11:56 | ERROR | TC-05 | Test=Navigation: Education | Expected=Click 'Education' and reach https://julesni.github.io/julesnizeyimana/index.htmleducation.html | Actual=Navigation unsuccessful; current URL=https://julesni.github.io/julesnizeyimana/education.html | Status=FAIL | Duration=11.45s | URL=https://julesni.github.io/julesnizeyimana/education.html | Error=TimeoutException: Message: 
+ | Screenshot=screenshots/TC-05_fail_20261023_191029_394754.png
+2026-10-23 19:12:11 | ERROR | TC-06 | Test=Navigation: Blog | Expected=Click 'Blog' and reach https://julesni.github.io/julesnizeyimana/index.htmlblog.html | Actual=Navigation unsuccessful; current URL=https://julesni.github.io/julesnizeyimana/blog.html | Status=FAIL | Duration=11.60s | URL=https://julesni.github.io/julesnizeyimana/blog.html | Error=TimeoutException: Message: 
+ | Screenshot=screenshots/TC-06_fail_20261023_191029_394754.png
+2026-10-23 19:12:21 | ERROR | TC-07 | Screenshot capture failed | Error=Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=155.0.8059.85)
+Stacktrace:
+0   chromedriver                        0x000000010f6da3da chromedriver + 4121562
+1   chromedriver                        0x000000010f358c25 chromedriver + 445477
+2   chromedriver                        0x000000010f332ac8 chromedriver + 289480
+3   chromedriver                        0x000000010f3dac88 chromedriver + 978056
+4   chromedriver                        0x000000010f3f69a5 chromedriver + 1092005
+5   chromedriver                        0x000000010f3a0b2d chromedriver + 740141
+6   chromedriver                        0x000000010f3a1861 chromedriver + 743521
+7   chromedriver                        0x000000010f6a22f9 chromedriver + 3891961
+8   chromedriver                        0x000000010f6a6164 chromedriver + 3907940
+9   chromedriver                        0x000000010f68804e chromedriver + 3784782
+10  chromedriver                        0x000000010f6a6c32 chromedriver + 3910706
+11  chromedriver                        0x000000010f67ac19 chromedriver + 3730457
+12  chromedriver                        0x000000010f6c5f98 chromedriver + 4038552
+13  chromedriver                        0x000000010f6c612c chromedriver + 4038956
+14  chromedriver                        0x000000010f6da086 chromedriver + 4120710
+15  libsystem_pthread.dylib             0x00007ff81b7d1e05 _pthread_start + 115
+16  libsystem_pthread.dylib             0x00007ff81b7cd857 thread_start + 15
+
+2026-10-23 19:12:21 | ERROR | TC-07 | Test=Navigation: Contact | Expected=Click 'Contact' and reach https://julesni.github.io/julesnizeyimana/index.htmlcontact.html | Actual=Unable to retrieve current browser URL | Status=FAIL | Duration=7.07s | URL=Unavailable | Error=NoSuchWindowException: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=155.0.8059.85)
+Stacktrace:
+0   chromedriver                        0x000000010f6da3da chromedriver + 4121562
+1   chromedriver                        0x000000010f358c25 chromedriver + 445477
+2   chromedriver                        0x000000010f332ac8 chromedriver + 289480
+3   chromedriver                        0x000000010f3dac88 chromedriver + 978056
+4   chromedriver                        0x000000010f3f69a5 chromedriver + 1092005
+5   chromedriver                        0x000000010f3a0b2d chromedriver + 740141
+6   chromedriver                        0x000000010f3a1861 chromedriver + 743521
+7   chromedriver                        0x000000010f6a22f9 chromedriver + 3891961
+8   chromedriver                        0x000000010f6a6164 chromedriver + 3907940
+9   chromedriver                        0x000000010f68804e chromedriver + 3784782
+10  chromedriver                        0x000000010f6a6c32 chromedriver + 3910706
+11  chromedriver                        0x000000010f67ac19 chromedriver + 3730457
+12  chromedriver                        0x000000010f6c5f98 chromedriver + 4038552
+13  chromedriver                        0x000000010f6c612c chromedriver + 4038956
+14  chromedriver                        0x000000010f6da086 chromedriver + 4120710
+15  libsystem_pthread.dylib             0x00007ff81b7d1e05 _pthread_start + 115
+16  libsystem_pthread.dylib             0x00007ff81b7cd857 thread_start + 15
+
+2026-10-23 19:12:24 | ERROR | TC-08 | Screenshot capture failed | Error=Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=155.0.8059.85)
+Stacktrace:
+0   chromedriver                        0x000000010f6da3da chromedriver + 4121562
+1   chromedriver                        0x000000010f358c25 chromedriver + 445477
+2   chromedriver                        0x000000010f332ac8 chromedriver + 289480
+3   chromedriver                        0x000000010f3dac88 chromedriver + 978056
+4   chromedriver                        0x000000010f3f69a5 chromedriver + 1092005
+5   chromedriver                        0x000000010f3a0b2d chromedriver + 740141
+6   chromedriver                        0x000000010f3a1861 chromedriver + 743521
+7   chromedriver                        0x000000010f6a22f9 chromedriver + 3891961
+8   chromedriver                        0x000000010f6a6164 chromedriver + 3907940
+9   chromedriver                        0x000000010f68804e chromedriver + 3784782
+10  chromedriver                        0x000000010f6a6c32 chromedriver + 3910706
+11  chromedriver                        0x000000010f67ac19 chromedriver + 3730457
+12  chromedriver                        0x000000010f6c5f98 chromedriver + 4038552
+13  chromedriver                        0x000000010f6c612c chromedriver + 4038956
+14  chromedriver                        0x000000010f6da086 chromedriver + 4120710
+15  libsystem_pthread.dylib             0x00007ff81b7d1e05 _pthread_start + 115
+16  libsystem_pthread.dylib             0x00007ff81b7cd857 thread_start + 15
+
+2026-10-23 19:12:24 | ERROR | TC-08 | Test=Negative test: nonexistent link: CERTIFICATES | Expected=The nonexistent link should not be found; the negative test should record FAIL. | Actual=Unable to retrieve current browser URL | Status=FAIL | Duration=0.00s | URL=Unavailable | Error=NoSuchWindowException: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=155.0.8059.85)
+Stacktrace:
+0   chromedriver                        0x000000010f6da3da chromedriver + 4121562
+1   chromedriver                        0x000000010f358c25 chromedriver + 445477
+2   chromedriver                        0x000000010f332ac8 chromedriver + 289480
+3   chromedriver                        0x000000010f3dac88 chromedriver + 978056
+4   chromedriver                        0x000000010f3f69a5 chromedriver + 1092005
+5   chromedriver                        0x000000010f3a0b2d chromedriver + 740141
+6   chromedriver                        0x000000010f3a1861 chromedriver + 743521
+7   chromedriver                        0x000000010f6a22f9 chromedriver + 3891961
+8   chromedriver                        0x000000010f6a6164 chromedriver + 3907940
+9   chromedriver                        0x000000010f68804e chromedriver + 3784782
+10  chromedriver                        0x000000010f6a6c32 chromedriver + 3910706
+11  chromedriver                        0x000000010f67ac19 chromedriver + 3730457
+12  chromedriver                        0x000000010f6c5f98 chromedriver + 4038552
+13  chromedriver                        0x000000010f6c612c chromedriver + 4038956
+14  chromedriver                        0x000000010f6da086 chromedriver + 4120710
+15  libsystem_pthread.dylib             0x00007ff81b7d1e05 _pthread_start + 115
+16  libsystem_pthread.dylib             0x00007ff81b7cd857 thread_start + 15
+
+2026-10-23 19:12:24 | INFO | BROWSER CLOSED | Chrome session terminated.
+2026-10-23 19:12:24 | INFO | TEST SUITE SUMMARY | Total: 8 | Passed: 0 | Failed: 8 | Other: 0 | Duration: 115.07s
+2026-10-23 19:12:24 | INFO | TEST SUITE SUMMARY | Total: 8 | Passed: 0 | Failed: 8 | Other: 0 | Duration: 115.07s

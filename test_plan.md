@@ -4,6 +4,7 @@
 **Testing tool:** Python and Selenium WebDriver  
 **Browser:** Google Chrome  
 **Test environment:** Local HTTP server  
+**Base URL:** `https://julesni.github.io/julesnizeyimana/`
 **Base URL:** 
 https://julesni.github.io/julesnizeyimana/
 

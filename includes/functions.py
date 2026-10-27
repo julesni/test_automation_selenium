@@ -160,7 +160,7 @@ SCREENSHOTS_DIR.mkdir(parents=True, exist_ok=True)
 
 RUN_TIMESTAMP = datetime.now().strftime("%Y%m%d_%H%M%S_%f")
 
-LOG_FILE = LOGS_DIR / f"selenium_test_{RUN_TIMESTAMP}.log"
+LOG_FILE = LOGS_DIR / f"Test_{RUN_TIMESTAMP}.log"
 
 logger = logging.getLogger("portfolio_selenium")
 logger.setLevel(logging.INFO)
@@ -198,7 +198,17 @@ def initialize_browser():
     global driver
 
     service = Service("/usr/local/bin/chromedriver")
-    driver = webdriver.Chrome(service=service)
+
+    options = webdriver.ChromeOptions()
+    options.add_argument("--headless=new")
+    options.add_argument("--no-sandbox")
+    options.add_argument("--disable-dev-shm-usage")
+    options.add_argument("--window-size=1920,1080")
+
+    driver = webdriver.Chrome(
+        service=service,
+        options=options
+    )
     driver.maximize_window()
 
     browser_name = driver.capabilities.get(
@@ -406,8 +416,8 @@ def test_click_item(
             error=error_message,
             screenshot=screenshot
         )
-# Pause for 3 seconds so the test result is visible.
-    time.sleep(3)
+# Keep a short pause between browser tests.
+    time.sleep(0.5)
     return {
         "test_id": test_id,
         "description": f"Navigation: {itemname}",
